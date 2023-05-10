@@ -1,0 +1,6 @@
+$re = '/^ca_[a-z0-9][a-z0-9][a-z0-9][a-z0-9]/m';
+$str = 'ca_ap05';
+
+preg_match_all($re, $str, $matches, PREG_SET_ORDER, 0);
+
+// Print the entire match result
