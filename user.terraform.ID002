@@ -3,4 +3,4 @@ $str = 'ca_ap05';
 
 preg_match_all($re, $str, $matches, PREG_SET_ORDER, 0);
 
-// Print the entire match result
+# Print the entire match result
